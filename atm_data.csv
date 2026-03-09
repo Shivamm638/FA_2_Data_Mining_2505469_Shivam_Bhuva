@@ -1,0 +1,29 @@
+ATM_ID,Area,Date,Day_of_Week,Time_of_Day,Location_Type,Total_Withdrawals,Total_Deposits,Holiday_Flag,Special_Event_Flag,Weather_Condition,Nearby_Competitor_ATMs,Previous_Day_Cash_Level,Cash_Demand_Next_Day
+ATM001,Navrangpura,2024-01-01,Monday,Morning,Urban,35000,22000,1,0,Clear,4,52000,36000
+ATM002,Satellite,2024-01-01,Monday,Afternoon,Urban,34000,21000,1,0,Clear,3,50000,35000
+ATM003,Maninagar,2024-01-01,Monday,Evening,Residential,21000,13000,1,0,Cloudy,2,30000,22000
+ATM004,Bopal,2024-01-01,Monday,Night,Rural,12000,7000,1,0,Foggy,0,17000,12000
+ATM005,Vastrapur,2024-01-02,Tuesday,Morning,Urban,42000,26000,0,1,Clear,5,60000,43000
+ATM006,Chandkheda,2024-01-02,Tuesday,Afternoon,Residential,19000,12000,0,0,Rainy,1,26000,19000
+ATM007,SG Highway,2024-01-02,Tuesday,Evening,Business,45000,29000,0,0,Clear,4,65000,47000
+ATM008,Ellisbridge,2024-01-02,Tuesday,Night,Urban,36000,23000,0,0,Clear,3,52000,37000
+ATM009,Gota,2024-01-03,Wednesday,Morning,Rural,14000,9000,0,0,Cloudy,0,20000,14000
+ATM010,Thaltej,2024-01-03,Wednesday,Afternoon,Urban,48000,31000,0,1,Clear,5,72000,52000
+ATM011,Navrangpura,2024-01-03,Wednesday,Evening,Urban,41000,27000,0,0,Clear,4,61000,44000
+ATM012,Satellite,2024-01-03,Wednesday,Night,Business,32000,20000,0,0,Clear,3,47000,33000
+ATM013,Maninagar,2024-01-04,Thursday,Morning,Residential,20000,12000,0,0,Cloudy,2,28000,21000
+ATM014,Bopal,2024-01-04,Thursday,Afternoon,Rural,13000,8000,0,0,Rainy,0,19000,14000
+ATM015,Vastrapur,2024-01-04,Thursday,Evening,Urban,52000,33000,0,1,Clear,5,76000,56000
+ATM016,Chandkheda,2024-01-04,Thursday,Night,Residential,17000,10000,0,0,Foggy,1,24000,17000
+ATM017,SG Highway,2024-01-05,Friday,Morning,Business,56000,36000,0,1,Clear,6,82000,63000
+ATM018,Ellisbridge,2024-01-05,Friday,Afternoon,Urban,47000,30000,0,0,Clear,4,68000,49000
+ATM019,Gota,2024-01-05,Friday,Evening,Rural,16000,9500,0,0,Cloudy,0,22000,16000
+ATM020,Thaltej,2024-01-05,Friday,Night,Urban,65000,42000,0,1,Clear,6,93000,72000
+ATM021,Navrangpura,2024-01-06,Saturday,Morning,Urban,52000,32000,0,1,Clear,4,76000,58000
+ATM022,Satellite,2024-01-06,Saturday,Afternoon,Urban,51000,31000,0,1,Clear,3,75000,57000
+ATM023,Maninagar,2024-01-06,Saturday,Evening,Residential,27000,17000,0,1,Cloudy,2,37000,28000
+ATM024,Bopal,2024-01-06,Saturday,Night,Rural,17000,10000,0,1,Foggy,0,24000,18000
+ATM025,Vastrapur,2024-01-07,Sunday,Morning,Urban,54000,34000,0,0,Clear,5,78000,60000
+ATM026,Chandkheda,2024-01-07,Sunday,Afternoon,Residential,25000,16000,0,0,Cloudy,1,35000,26000
+ATM027,SG Highway,2024-01-07,Sunday,Evening,Business,56000,36000,0,0,Clear,5,80000,62000
+ATM028,Ellisbridge,2024-01-07,Sunday,Night,Urban,48000,30000,0,0,Clear,4,70000,52000
