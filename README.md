@@ -18,9 +18,7 @@ The interactive dashboard can be accessed here:
 🔗 **Web App Link:**  
 **ADD YOUR WEBPAGE / STREAMLIT LINK HERE**
 
-Example: https://fa2datamining.streamlit.app/
-
-https://your-streamlit-app-link.streamlit.app
+https://fa2datamining.streamlit.app/
 
 ---
 
