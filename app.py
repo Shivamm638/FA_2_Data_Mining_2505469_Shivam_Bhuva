@@ -161,20 +161,24 @@ st.plotly_chart(
 )
 
 # ==============================
-# 💰 SALARY SIMULATION
+# 💰 Salary Simulation (FIXED)
 # ==============================
 st.header("💰 Salary Day Simulation")
 
 salary_day = st.slider("Select Salary Day", 1, 31, 1)
 
-df["Simulated"] = df["Total_Withdrawals"]
-df.loc[df["Date"].dt.day == salary_day, "Simulated"] *= 1.5
+# Convert to float to avoid dtype error
+df["Simulated"] = df["Total_Withdrawals"].astype(float)
 
+# Apply salary boost safely
+mask = df["Date"].dt.day == salary_day
+df.loc[mask, "Simulated"] = df.loc[mask, "Simulated"] * 1.5
+
+# Plot
 st.plotly_chart(
     px.line(df.sort_values("Date"), x="Date", y="Simulated"),
     use_container_width=True
 )
-
 # ==============================
 # 📈 ML PREDICTION
 # ==============================
